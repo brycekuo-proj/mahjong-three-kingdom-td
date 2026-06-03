@@ -1,0 +1,35 @@
+[
+{
+"id": "mahjong_wan_01",
+"category": "mahjong",
+"type": "tile",
+"name": "wan_1",
+"style": "STYLE.md",
+"prompt_template": "mahjong_tile_base",
+"output": "/assets/mahjong/",
+"status": "pending",
+"priority": 1
+},
+{
+"id": "mahjong_tiao_01",
+"category": "mahjong",
+"type": "tile",
+"name": "tiao_1",
+"style": "STYLE.md",
+"prompt_template": "mahjong_tile_base",
+"output": "/assets/mahjong/",
+"status": "pending",
+"priority": 1
+},
+{
+"id": "mahjong_tong_01",
+"category": "mahjong",
+"type": "tile",
+"name": "tong_1",
+"style": "STYLE.md",
+"prompt_template": "mahjong_tile_base",
+"output": "/assets/mahjong/",
+"status": "pending",
+"priority": 1
+}
+]
