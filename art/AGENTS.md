@@ -66,31 +66,35 @@ Assets belong to:
 
 Mahjong:
 
-/assets/mahjong/
+/art/mahjong/
 
 Heroes:
 
-/assets/heroes/
+/art/heroes/
 
 Soldiers:
 
-/assets/soldiers/
+/art/soldiers/
 
 Enemies:
 
-/assets/enemies/
+/art/enemies/
 
 Boss:
 
-/assets/boss/
+/art/boss/
+
+Maps:
+
+/art/maps/
 
 UI:
 
-/assets/ui/
+/art/ui/
 
 FX:
 
-/assets/fx/
+/art/fx/
 
 Agents must export to proper folder.
 
