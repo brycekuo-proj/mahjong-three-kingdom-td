@@ -1,58 +1,182 @@
 Mahjong Tile Base Prompt
 
-Read:
+Read First:
 
 - /art/STYLE.md
 - /art/AGENTS.md
 
 Purpose:
 
-Base generation template for Mahjong tile assets.
+Base generation template for Mahjong tile assets used in Mahjong Three Kingdom TD.
 
-Style:
+This template is the master prompt for all Mahjong tile production.
+
+---
+
+Style Requirements
+
+Visual Style:
 
 - Cute Premium
-- 2.5D leaning toward 2D
-- Stylized Three Kingdom aesthetic
-- Premium collectible feeling
+- Stylized 2.5D
+- Leaning toward 2D illustration
+- Three Kingdom inspired aesthetic
+- Premium collectible quality
 
-Material:
+Must match all STYLE.md requirements.
+
+---
+
+Tile Material
+
+Material Type:
 
 - Ivory base
-- Jade-inspired gloss
-- Rounded edge
-- Soft premium texture
+- Subtle jade-inspired gloss
+- Soft premium finish
+- Rounded corners
+- Slight edge bevel
+
+Material Feel:
+
+- Valuable
+- Elegant
+- Tactical
+- Collectible
+
+Avoid:
+
+- Plastic appearance
+- Cheap toy appearance
+- Casino realism
+- Neon materials
+
+---
+
+Rendering Requirements
 
 Rendering:
 
 - Soft lighting
-- Mild shadow
+- Gentle highlights
+- Mild shadow volume
 - Clean silhouette
-- High readability
+- High gameplay readability
 
-Tile Rules:
+Visual Priority:
 
-- Clear Chinese Mahjong symbols
-- Gameplay readability first
-- No casino realism
-- No plastic toy appearance
-- No neon effect
+1. Readability
+2. Consistency
+3. Aesthetic quality
 
-Visual Feeling:
+Avoid:
 
-- Tactical
-- Valuable
-- Elegant
-- Warm
+- Hyper realism
+- Photorealism
+- Heavy texture noise
+- Excessive reflections
 
-Background:
+---
 
-- Transparent or clean neutral
+Mahjong Symbol Rules
 
-Output Goal:
+Symbol Requirements:
 
-Generate a Mahjong tile that matches Mahjong Three Kingdom TD visual language.
+- Traditional Chinese Mahjong style
+- Clean icon rendering
+- Large readable markings
+- High contrast
 
-Variation:
+Gameplay visibility must remain clear at small UI sizes.
 
-Specific tile identity will be provided by queue task.
+---
+
+Background Rules
+
+Required:
+
+- Transparent background
+- PNG-ready asset
+- Fully isolated object
+
+Forbidden:
+
+- White background
+- Colored background
+- Gradient background
+- Floor
+- Environment
+- Decorative scene
+- Background texture
+- Framing elements
+
+Asset must require ZERO manual background removal.
+
+---
+
+Composition Rules
+
+Single Mahjong tile only.
+
+Centered composition.
+
+No additional objects.
+
+No extra props.
+
+No decorative accessories.
+
+No duplicate tiles.
+
+---
+
+Export Rules
+
+Output Type:
+
+- Individual asset
+- Game-ready
+- Transparent PNG compatible
+
+Asset should be suitable for:
+
+- HUD
+- Deck UI
+- Collection UI
+- Battle UI
+
+No post-processing required.
+
+---
+
+Consistency Rules
+
+Must follow:
+
+- STYLE.md
+- AGENTS.md
+- Faction consistency rules
+- Project-wide visual language
+
+No style drift allowed.
+
+---
+
+Queue Integration
+
+Tile identity will be supplied by:
+
+- mahjong_queue.json
+
+Examples:
+
+- wan_1
+- wan_9
+- tiao_3
+- tong_7
+- east_wind
+- red_dragon
+
+This template only defines the visual foundation.
+
+Specific tile content is determined by queue tasks.
